@@ -4,7 +4,7 @@ It was asked to write a method `fibonacci` which returns an `Array` including *F
 
 > Fibonacci series is as following: 0, 1, 1, 2, 3, 5, 8, 13, etc...
 
-A second method called "isFibonnaci" shall receive a `Number` as its params and return a `Boolean`. If the number received isn't included in the `fibonacci Array`, then, it must return `false`. Otherwise, it should return `true`.
+A second method called `isFibonnaci` shall receive a `Number` as its params and return a `Boolean`. If the number received isn't included in the `fibonacci Array`, then, it must return `false`. Otherwise, it should return `true`.
 
 # Fibonacci usando NodeJS
 
