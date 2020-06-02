@@ -1,0 +1,385 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f2f2f2;
+    font-size: 10px;
+}
+
+img {
+	border: 0;
+}
+
+h2 {
+	display: block;
+	margin-block-start: 8.3px;
+	margin-block-end: 8.3px;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+
+h3 {
+	display: block;
+	margin-block-end: 10px;
+	margin-block-start: 10px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.head-main{
+	background-attachment: fixed;
+	background-image: url(../img/capa-madmax2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	justify-content: space-between;
+	padding: 20px;
+	position: relative;
+	width: 100%;
+}
+
+.head-main:before {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 212, 255,0) 75%);
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-list li {
+	margin: 0px 25px;
+	display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 13px;
+	font-weight: bold;
+	color: #e4bb23;
+}
+
+.navbar-list li a:hover {
+	color: #e4bb23;
+	background-color: transparent;
+	
+}
+
+.navbar-list a {
+    color: white;
+}
+
+.imdb-logo {
+	display: inline-block;
+}
+
+.navbar-menu .container{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.navbar-user {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navbar-user-photo {
+	border-radius: 100%;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+	height: 45px;
+	overflow: hidden;
+	margin-right: 15px;
+	width: 45px;
+}
+
+.navbar-user-photo img{
+	width: 100%;
+	height: auto;
+}
+
+.navbar-user-name{
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.movie-title {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: bold;
+	line-height: 1.2em;
+	margin: 0;
+}
+
+.movie-gender{
+	display: flex;
+	margin: 15px 0 30px;
+	font-size: 13px;
+}
+
+.movie-gender a{
+	color: #ffffff;
+	margin-right: 15px;
+	transition: all 0.2s ease-in-out;
+}
+
+.movie-gender a:hover {
+	color: #e4bb23;
+}
+
+.watch-trailer {
+	display: inline-block;
+	padding: 15px 50px;
+	color: #000;
+	font-size: 15px;
+	background-color: #e4bb23;
+	border-radius: 40px;
+	position: relative;
+	transition: all 0.2s ease-in-out;
+	text-decoration: none;
+}
+
+.watch-trailer i{
+	font-size: 1.5em;
+	position: absolute;
+	right: 15px;
+	top: 12px;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+}
+
+.movie-info {
+	padding: 20px 0;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.movie-date {
+	color: #bc9a1d;
+}
+
+.social-media-icons{
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+.footer {
+	background-color: #ffffff;
+	color: #bababa;
+	padding: 35px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.footer .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-item{
+	margin: 0 20px;
+}
+
+.footer-item i{
+	color: #bababa;
+	font-size: 25px;
+}
+
+.middle-nav {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: auto;
+}
+
+.container .middle-nav{
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+	width: 100%;
+}
+
+.middle-nav-list {
+	margin: auto auto;
+	display: flex;
+	text-align: center;
+	list-style: none;
+	justify-content: space-between;
+	/* padding: 0 20px; */
+}
+
+.middle-nav-list li{
+	cursor: pointer;
+}
+
+.middle-nav-item{
+	margin: 0 20px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.middle-nav-item a{
+	color: #e4bb23;
+	display: inline-block;
+	padding: 25px 0;
+}
+
+.middle-nav-item a:hover{
+	border-bottom: 1px solid #e4bb23;
+}
+
+.catalog {
+	background-color: #f2f2f2;
+	width: 100%;
+}
+
+.cards {
+	margin-top: 18px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.movie-card {
+	background-color: #ffffff;
+	border-radius: 8px;
+	display: flex;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	flex-direction: column;
+	margin-bottom: 30px;
+	overflow: hidden;
+	width: 24%;
+}
+
+.film-poster{
+	margin: 0;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.film-poster img{
+	width: 100%;
+	height: auto;
+}
+
+.poster-info {
+	display: flex;
+	flex-direction: column;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	visibility: ;
+	position: absolute;
+	background-color: rgba(0,0,0, .5);
+	transition: all 0.2s ease-in-out;
+}
+
+.film-poster:hover .poster-info{
+	visibility: visible;
+	opacity: 1;
+}
+
+.film-poster-link{
+	color: white;
+}
+
+.film-poster-link:hover{
+	color: #bc9a1d;
+}
+
+.film-poster-link i{
+	font-size: 50px;
+}
+
+.poster-info h3{
+	color: #bc9a1d;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+}
+
+.film-resume{
+	margin: 0px 10px;
+}
+
+.film-resume-genre{
+	text-align: left;
+}
+
+.film-resume-genre a{
+	font-size: 12px;
+	color: #e4bb23;
+}
+
+.film-resume-genre a:hover{
+	border-bottom: .5px solid #e4bb23;
+}
+
+.film-resume-title{
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.film-resume-score{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	font-weight: 700;
+	font-size: 22px;
+	margin: 15px;
+	justify-content: space-between;
+}
+
+.film-resume-score i{
+	font-size: 25px;
+	color: #cccccc;
+}
+
+.film-resume-score i:hover{
+	color: red;
+}
