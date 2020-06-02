@@ -20,6 +20,6 @@ Every fold has its own README. But if you are looking for just a resume:
 
 **react-16**: Instagram using React, showing stories, users, API, etc;
 
-The final challenge was to build an e-commerce and you can check here:
+The final challenge was to build an e-commerce and you may check it here:
 
 [Fashionista e-commerce](https://github.com/sifthedog/fashionista-ecommerce)
